@@ -1,11 +1,20 @@
 //import ClassComponent from './ClassComponent'
-import PropsExample from './PropsExample'
-import './App.css'
+//import PropsExample from './PropsExample'
+//import FuncProps from './FuncProps'
+//import StateExample from './StateExample'
+//import DemoExample from './DemoExample'
+import Events from './Events'
+//import './App.css'
 function App() {
-return(
-    <section className="group">
-            <PropsExample name="chinni" age="19"/>
-            <PropsExample name="different" age="telidhu"/>
+  return(
+        <section>
+            <Events/>
+            {/*<DemoExample name="chinni" year="2003"/>
+            <StateExample/>*/}
+            {/*<FuncProps carname="rolls royce" year="1989"/>
+            <h1>hello</h1>*/}
+            {/*<PropsExample name="chinni" age="19"/>
+            <PropsExample name="different" age="telidhu"/>*/}
 
 
             {/*<p>this is intenship</p>
